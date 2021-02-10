@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Photo Gallery</title>
+    <link rel="stylesheet" href="photoGallery.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body id = "bOdY">
+    <h1 id = "imgs">Naruto Image Gallery</h1>
+    <div class="container">
+        <h2 class="viewType">Slide View</h2>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src = "uzumaki_naruto.jpeg">
+                        <div class="carousel-content">
+                            <p>Naruto's Rasengan</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src = "hatake_kakashi.jpeg">
+                        <div class="carousel-content">
+                            <p>Kakashi's Chidori</p>
+                        </div>
+                    </center>
+                </div>
+                <div class = "item">
+                    <center>
+                        <img src = "jiraiya.jpeg">
+                        <div class="carousel-content">
+                            <p>Jiraiya's Sage Mode</p>
+                        </div>
+                    </center>
+                </div>
+                <div class = "item">
+                    <center>
+                        <img src = "uchiha_itachi.jpeg">
+                        <div class="carousel-content">
+                            <p>Itachi's Susano'o</p>
+                        </div>
+                    </center>
+                </div>
+                <div class = "item">
+                    <center>
+                        <img src = "pain.jpeg">
+                        <div class="carousel-content">
+                            <p>Pain's Shinra Tensei</p>
+                        </div>
+                    </center>
+                </div>
+                <div class = "item">
+                    <center>
+                        <img src = "guy_might.jpeg">
+                        <div class="carousel-content">
+                            <p>Guy's 8 Gates</p>
+                        </div>
+                    </center>
+                </div>
+                <div class = "item">
+                    <center>
+                        <img src = "uchiha_sasuke.jpeg">
+                        <div class="carousel-content">
+                            <p>Sasuke's Amarterasu</p>
+                        </div>
+                    </center>
+                </div>
+                <div class = "item">
+                    <center>
+                        <img src = "uchiha_madarasa.jpeg">
+                        <div class="carousel-content">
+                            <p>Madara's Sharingan</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <h2 class="viewType">Gallery View</h2>
+        <div id=galleryView>
+            <span class = "gallery">
+                <img src = "uzumaki_naruto.jpeg">
+                <img src = "hatake_kakashi.jpeg">
+                <img src = "jiraiya.jpeg">
+                <img src = "uchiha_itachi.jpeg">
+            </span>
+            <span class = "gallery">
+                <img src = "pain.jpeg">
+                <img src = "guy_might.jpeg">
+                <img src = "uchiha_sasuke.jpeg">
+                <img src = "uchiha_madarasa.jpeg" id = "demo">
+            </span>
+        </div>
+    </div>
+</body>
+</html>

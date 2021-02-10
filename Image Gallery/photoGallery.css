@@ -1,0 +1,24 @@
+#myCarousel {
+    background-color:blue;
+    height: 320px;
+}
+.container {
+    text-align: center;
+    background-color:chocolate;
+    font-family:cursive;
+    color:darkgreen;
+}
+#galleryView {
+    background-color: blue;
+}
+#imgs {
+    font-family: fantasy;
+    color:darkgreen;
+    margin-left: 20px;
+}
+.container p{
+    font-weight: bold;
+}
+#bOdY {
+    background-color:red;
+}
